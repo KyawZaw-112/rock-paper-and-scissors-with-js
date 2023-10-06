@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #292c34;
+}
+
+header {
+    background: #fff;
+    text-transform: capitalize;
+}
+
+header h1 { 
+    color: #25272e;
+    text-align: center;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.score-board {
+    border: 3px solid #fff;
+    width: 200px;
+    margin: 20px auto;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: #e25840;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 25px;
+    left: -25px;
+}
+
+#ai-label {
+    position: absolute;
+    top: 25px;
+    right: -25px;
+}
+
+.result {
+    font-size: 40px;
+    color: #fff;
+}
+
+.result p {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.choices {
+    text-align: center;
+    user-select: none;
+    margin-top: 45px;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 0 30px;
+    user-select: none;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #b7c2ff6b;
+    border: 4px solid #b7c2ff52;
+    transition: all 0.5s ease-in-out;
+}
+
+#action-message {
+    text-align: center;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.restart-btn  {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 30px 0 ;
+}
+
+.restart-btn button {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    /* text-align: center; */
+    cursor: pointer;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-radius: 8px;
+}
+
+
